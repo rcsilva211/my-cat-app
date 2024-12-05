@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import CatList from './ex4/CatList.jsx';
 import RTKCatList from './ex5/RTKCatList.jsx';
-import './app.css';
+import './App.css';
 
 function App() {
   const [page, setPage] = useState(0);
